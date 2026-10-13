@@ -6,6 +6,8 @@ in JSONL; the tool finds the resume point, detects gaps, overlaps, batch restart
 records, and proves idempotent re-consumption by replaying the tail twice.
 Pure standard library. *No direct equivalent found as of 2026-10-13.*
 
+<p align="center"><img src="docs/demo.gif" alt="demo" width="720"></p>
+
 ## Problem
 
 "Resume from where we left off" is where ETL pipelines lose or duplicate
